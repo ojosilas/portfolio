@@ -229,7 +229,7 @@ section .about-section .main-about-section{
     flex-wrap: wrap;
     justify-content:center;
 
-}
+}   
 
 
 section .about-section .main-about-section .about-image{
@@ -551,7 +551,7 @@ section .about-section .main-about-section .about-content .skills-image img{
 
 .contact .input-container .name-email input::placeholder{
     padding: 10px;
-    color: rgba(0, 0, 0, 0.459);
+    color: rgb(0, 0, 0);
     font-family: Lora;
 }
 
@@ -568,7 +568,7 @@ section .about-section .main-about-section .about-content .skills-image img{
 .contact .input-container .subject::placeholder{
     padding: 10px;
     font-family: lora;
-    color: rgba(0, 0, 0, 0.459);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -581,7 +581,7 @@ section .about-section .main-about-section .about-content .skills-image img{
 
 .contact .input-container textarea::placeholder{
     padding: 10px;
-    color: rgba(0, 0, 0, 0.433);
+    color: rgb(0, 0, 0);
     font-family: Lora;
 }
 

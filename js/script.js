@@ -9,8 +9,8 @@ hamburger.addEventListener("click", () => {
 
 
 // project starts here 
-function showAll (event) {
-    event.preventDefault(); 
+function showAll () {
+   
     
     document.getElementById('webDevelopment1').style.display = 'block'
     document.getElementById('webDevelopment2').style.display = 'block'
@@ -28,7 +28,7 @@ function showWebdevelopment () {
     document.getElementById('webDevelopment4').style.display = 'block'
     document.getElementById('webDevelopment5').style.display = 'block'
     document.getElementById('webDevelopment6').style.display = 'block'
-    document.getElementById('graphics').style.display = 'none'
+    document.getElementById('graphics').style.display = 'none   '
     document.getElementById('logo').style.display = 'none'
 }
 function showGraphics () {
