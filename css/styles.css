@@ -1,0 +1,912 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Pacifico&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* header starts here  */
+header{
+    
+}
+ /* top header starts here   */
+ header .top-header{
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4e4e4e7a;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+    
+}
+
+
+header .top-header .logo img{
+    max-width: 100px;
+    width: 100%;
+
+}
+
+
+header .top-header .nav-links ul{
+    display: flex;
+    gap: 20px;
+}
+
+header .top-header .nav-links ul li{
+    list-style: none;
+}
+
+
+header .top-header .nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header .top-header .nav-links ul li a:hover {
+    color: #ecc222;
+    text-decoration: underline;
+}
+
+header .top-header .nav-links .hamburger-menu{
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+} 
+/* Top header ends here  */
+
+
+
+/* header body starts here  */
+header .hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8c200; /* Yellow closer to the screenshot */
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+header .hero-section .heading-content {
+  flex: 1;
+  padding: 100px 50px;
+  color: white;
+}
+
+header .hero-section .heading-content h1 {
+  font-size: 60px;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  margin: 0;
+}
+
+header .hero-section .heading-content h5 {
+  font-size: 24px;
+  font-family: 'Lora', serif;
+  border-right: 3px solid BLACK;
+  padding-right: 8px;
+  display: inline-block;
+  margin-top: 10px;
+  color: black;
+}
+
+
+
+header .hero-section .heading-content .button {
+  margin-top: 20px;
+}
+
+header .hero-section .heading-content button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+header .hero-section .heading-content button:hover {
+  background-color: white;
+  color: #f8c200;
+}
+
+header .hero-section .heading-image {
+  flex: 1;
+}
+
+header .hero-section .heading-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* header body ends here  */
+/* header ends here  */
+
+
+
+
+
+/* about section starts here  */
+/* technologies starts here  */
+section .technologies{
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+section .technologies .containers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    
+}
+
+
+section .technologies .containers .container .heading{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    font-family: Roboto;
+}
+
+
+section .technologies .containers .container .heading h1{
+    font-size: 30px;
+}
+
+
+section .technologies .containers .container{
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.248);
+    border-radius: 10px;
+}
+
+
+section .technologies .containers .container p{
+    font-family: Lora;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 15px;
+}
+/* technology ends here  */
+
+
+/* about section contents starts here */
+section .about-section{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #f8f9fa;
+}
+section .about-section .heading{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+section .about-section .heading h1{
+    font-family: Roboto;
+    font-size: 30px;
+    border-bottom: 5px solid black;
+    display: inline;
+    border-color: #ecc222;
+    padding-bottom: 2px;
+}
+
+
+
+section .about-section .heading p{
+    font-family: Lora;
+    padding-top: 10px;
+}
+
+
+section .about-section .main-about-section{
+    padding-top: 70px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+
+section .about-section .main-about-section .about-image{
+    z-index: 1;
+    background-image: url(images/heading-image.jpg);
+    max-width: 500px;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+section .about-section .main-about-section .about-image .social-links{
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.29);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    bottom: 1px;
+    display: flex;
+    left: 1px;
+    gap: 2px;
+    overflow: hidden;
+}
+
+
+section .about-section .main-about-section .about-image .social-links a{
+    font-size: 30px;
+    color: white;
+    margin: auto;
+    border: 1px solid white;
+    padding: 3px 8px;
+    overflow: hidden;
+}
+
+
+section .about-section .main-about-section .about-image .social-links a:hover{
+    color: #ecc222;
+    overflow: hidden;
+}
+
+
+section .about-section .main-about-section .about-content{
+    width: 500px;
+}
+
+
+section .about-section .main-about-section .about-content h1{
+    font-family: Roboto;
+    font-size: 40px;
+}
+
+
+section .about-section .main-about-section .about-content h1 span{
+    color: #ecc222;
+}
+
+
+section .about-section .main-about-section .about-content p{
+    padding-top: 20px;
+    font-family: Lora;
+    color:black;
+    font-weight: 500;
+}
+
+
+section .about-section .main-about-section .about-content .skills{
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+
+
+section .about-section .main-about-section .about-content .skills-image{
+   padding-top: 30px;
+   height: 180px; 
+}
+
+
+section .about-section .main-about-section .about-content .skills-image img{
+    width: 100%;
+    max-width: 500px;
+}
+/* about section ends here */
+
+
+
+
+/* service section starts here  */
+.service{
+    background-color: #ecc222;
+}
+.service .service-heading{
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Roboto;
+}
+
+
+.service .service-heading h1{
+    border-bottom: 5px solid black;
+    display: inline;
+    border-color: white;
+    font-size: 30px;
+    font-family: Roboto;
+    font-size: 30px;
+    padding-bottom: 2px;
+}
+
+
+.service .service-heading p{
+    padding-top: 15px;
+    color: white;
+    font-weight: 600;
+    font-family: Lora;
+}
+
+
+.service .containers{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    justify-content: space-around;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+
+.service .containers .container{
+    max-width: 400px;
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.516);
+    border-radius: 5px;
+    border-bottom: 3px solid black;
+
+   
+
+}
+
+
+.service .containers .container h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Roboto;
+    
+}
+
+
+.service .containers .container p{
+    font-family: Roboto;
+    font-size: 16px;
+    padding-top: 10px;
+}
+/* service ends here  */
+
+
+
+/* projects starts here  */
+.projects{
+    text-align: center;
+    background-color: #f8f9fa;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+.projects .heading{
+    text-align: center;
+}
+
+
+.projects .heading h1{
+    padding-top: 70px;
+    padding-bottom: 5px;
+    font-family: Roboto;
+    border-bottom: 5px solid #ecc222;
+    display: inline-block;
+}
+
+
+.projects .heading p{
+    font-family: Lora;
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.projects .heading-links{
+    padding-top: 70px;
+}
+
+
+
+.projects .heading-links ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 35px;
+    
+}
+
+
+.projects .heading-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.419);
+    padding: 5px;
+    font-family: Lora;
+    border-radius: 2px;
+}
+
+
+.projects .heading-links ul li a:hover{
+    background-color: #ecc222;
+    border: none;
+    color: white;
+}
+
+
+.projects .project-images{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.projects .project-images .project-containers{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    
+}
+
+
+
+.projects .project-images .project-containers .container a img{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    overflow: hidden;
+}
+/* project ends here  */
+
+
+
+/* contact section ends here  */
+.contact{
+    text-align: center;
+}
+
+.contact .contact-heading{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.contact .contact-heading h1 {
+    font-family: Roboto;
+    border-bottom: 5px solid #ecc222;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contact .contact-heading p{
+    padding-top: 10px;
+    font-family: Lora;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+.contact .input-container{
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 3px #f8f9fa;
+    
+}
+
+
+.contact .input-container .name-email{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.contact .input-container .name-email input{
+    width: 440px;
+    height: 40px;
+    border: none;
+}
+
+
+.contact .input-container .name-email input::placeholder{
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.459);
+    font-family: Lora;
+}
+
+
+
+.contact .input-container .subject{
+    max-width: 900px;
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+
+.contact .input-container .subject::placeholder{
+    padding: 10px;
+    font-family: lora;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+
+.contact .input-container textarea{
+    max-width: 900px;
+    width: 100%;
+    height: 80px;
+    border: none;
+}
+
+.contact .input-container textarea::placeholder{
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.433);
+    font-family: Lora;
+}
+
+
+.contact .input-container .button{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.contact .input-container .button button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+/* contact section ends here  */
+
+
+
+/* footer section starts here  */
+footer{
+    background-color: rgb(0, 0, 0);
+}
+
+
+footer h1{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+/* media query starts here  */
+/* header media query starts here  */
+
+@media screen and (max-width: 768px) {
+  header .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header .hero-section .heading-content {
+    padding: 60px 20px;
+  }
+
+  header .hero-section .heading-content h1 {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+
+  header .hero-section .heading-content h5 {
+    font-size: 18px;
+    border-right: none;
+  }
+
+  header .hero-section .heading-image img {
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  /* hamburger styling starts here  */
+  .nav-links{
+    position: relative;
+  }
+
+  .nav-links #list{
+    display: none;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.489);
+    backdrop-filter: blur(5px);
+    color: #ecc222;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 100px;
+    text-align: justify;
+    padding: 10px;
+    z-index: 99;
+
+  }
+
+
+  .nav-links #list.show{
+    display: flex;
+  }
+
+
+  header .top-header .nav-links .hamburger-menu{
+    display: block;
+    
+  }
+}
+/* header media query ends here  */
+
+
+
+
+
+/* about media query starts here  */
+@media screen and (max-width: 768px) {
+    section .about-section {
+      padding: 20px;
+    }
+  
+    section .about-section .main-about-section {
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+    }
+  
+    section .about-section .main-about-section .about-image {
+      width: 100%;
+      height: 400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    section .about-section .main-about-section .about-image .social-links {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      justify-content: space-around;
+      gap: 5px;
+      padding: 8px;
+    }
+  
+    section .about-section .main-about-section .about-content {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    section .about-section .main-about-section .about-content h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    section .about-section .main-about-section .about-content p {
+      text-align: center;
+    }
+  
+    section .about-section .main-about-section .about-content .skills {
+      text-align: center;
+    }
+  
+    section .about-section .main-about-section .about-content .skills-image {
+      height: auto;
+      display: flex;
+      justify-content: center;
+      height: auto;
+
+    }
+  
+    section .about-section .main-about-section .about-content .skills-image img {
+      max-width: 90%;
+    }
+  }
+
+
+
+
+
+/* project media query starts here  */
+@media screen and (max-width: 446px) {
+
+     .projects .heading-links ul li a {
+       padding: 3px;
+       font-size: 10px;
+    }
+
+
+    .projects .heading-links ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        gap: 15px;
+        
+    }
+}
+
+
+
+/* contact section media query starts here  */
+@media screen and (max-width:408px){
+    .contact .input-container .name-email{
+        display: flex; 
+        flex-wrap: wrap;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:321px) {
+    /* technologies starts here  */
+
+section .technologies .containers .container .heading h1{
+    font-size: 25px;
+}
+
+
+section .technologies .containers .container p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+/* technology ends here  */
+
+
+/* about section contents starts here */
+
+
+section .about-section .heading h1{
+    font-size: 25px;
+}
+
+
+
+section .about-section .heading p{
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+section .about-section .main-about-section .about-content h1{
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+
+
+section .about-section .main-about-section .about-content p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+
+section .about-section .main-about-section .about-content .skills{
+    font-size: 20px;
+}
+
+
+
+section .about-section .main-about-section .about-content .skills-image{
+   height: 200px;
+   width: 100%; 
+}
+/* .about-section end here  */
+
+
+
+/* service section starts here  */
+
+.service .service-heading h1{
+    font-size: 25px;
+}
+
+
+.service .service-heading p{
+    font-size: 15px;
+}
+
+
+.service .containers .container h1{
+    font-size: 20px;
+    
+}
+
+
+.service .containers .container p{
+    
+    font-size: 13px;
+    
+}
+/* service ends here  */
+
+
+
+/* project starts here  */
+.projects .heading h1{
+    font-size: 25px;
+}
+
+
+.projects .heading p{
+    font-size: 13px;
+    font-family: Lora;
+    
+}
+/* project ends here  */
+
+
+
+/* contact starts here  */
+.contact .contact-heading h1 {
+    font-size: 25px;
+}
+
+.contact .contact-heading p {
+ font-size: 13px;
+}
+/* contact section ends here  */
+
+
+/* footer starts here  */
+footer h1{
+    font-size: 15px;
+  }
+    
+    
+}
+
+
+
+
