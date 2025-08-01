@@ -181,6 +181,12 @@ section .technologies .containers .container{
     background-color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.248);
     border-radius: 10px;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+section .technologies .containers .container:hover{
+    transform: scale(1.1);
 }
 
 
