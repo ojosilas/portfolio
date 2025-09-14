@@ -6,53 +6,26 @@ let navList = document.getElementById("list")
 hamburger.addEventListener("click", () => {
     navList.classList.toggle("show");
 });
+// hamburger ends here 
 
 
-// project starts here 
-function showAll () {
-   
-    
-    document.getElementById('webDevelopment1').style.display = 'block'
-    document.getElementById('webDevelopment2').style.display = 'block'
-    document.getElementById('webDevelopment3').style.display = 'block'
-    document.getElementById('webDevelopment4').style.display = 'block'
-    document.getElementById('webDevelopment5').style.display = 'block'
-    document.getElementById('webDevelopment6').style.display = 'block'
-    document.getElementById('graphics').style.display = 'block'
-    document.getElementById('logo').style.display = 'block'
-}
-function showWebdevelopment () {
-    document.getElementById('webDevelopment1').style.display = 'block'
-    document.getElementById('webDevelopment2').style.display = 'block'
-    document.getElementById('webDevelopment3').style.display = 'block'
-    document.getElementById('webDevelopment4').style.display = 'block'
-    document.getElementById('webDevelopment5').style.display = 'block'
-    document.getElementById('webDevelopment6').style.display = 'block'
-    document.getElementById('graphics').style.display = 'none   '
-    document.getElementById('logo').style.display = 'none'
-}
-function showGraphics () {
-    document.getElementById('webDevelopment1').style.display = 'none'
-    document.getElementById('webDevelopment2').style.display = 'none'
-    document.getElementById('webDevelopment3').style.display = 'none'
-    document.getElementById('webDevelopment4').style.display = 'none'
-    document.getElementById('webDevelopment5').style.display = 'none'
-    document.getElementById('webDevelopment6').style.display = 'none'
-    document.getElementById('graphics').style.display = 'block'
-    document.getElementById('logo').style.display = 'none'
-}
-function showLogo () {
-    document.getElementById('webDevelopment1').style.display = 'none'
-    document.getElementById('webDevelopment2').style.display = 'none'
-    document.getElementById('webDevelopment3').style.display = 'none'
-    document.getElementById('webDevelopment4').style.display = 'none'
-    document.getElementById('webDevelopment5').style.display = 'none'
-    document.getElementById('webDevelopment6').style.display = 'none'
-    document.getElementById('graphics').style.display = 'none'
-    document.getElementById('logo').style.display = 'block'
-}
-// project ends here 
-
-
-// footer starts here 
+// portfolio starts here 
 document.getElementById("year").textContent = new Date ().getFullYear() 
+
+
+const cont = document.getElementById('container4')
+const more = document.getElementById('more')
+const less = document.getElementById('less')
+
+more.addEventListener('click', ()=> {
+    cont.style.display = 'block'
+    more.style.display = 'none'
+    less.style.display = 'block'
+})
+
+less.addEventListener('click', () => {
+    cont.style.display = 'none'
+    less.style.display = 'none'
+    more.style.display = 'block'
+})
+// portfolio ends here 
