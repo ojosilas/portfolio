@@ -406,10 +406,10 @@ section .about-section .main-about-section .about-content .skills-image img{
 
 /* projects starts here  */
 .projects{
-    text-align: center;
     background-color: #f8f9fa;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
 
 }
 
@@ -434,71 +434,169 @@ section .about-section .main-about-section .about-content .skills-image img{
     padding-top: 10px;
     font-size: 15px;
     font-weight: 500;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
 }
 
 
-.projects .heading-links{
-    padding-top: 70px;
-}
 
-
-
-.projects .heading-links ul{
+.project-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    list-style: none;
-    gap: 35px;
-    
+    margin-top: 5vh;
+    gap: 5vh;
 }
 
 
-.projects .heading-links ul li a{
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    border: 1px solid rgba(0, 0, 0, 0.419);
-    padding: 5px;
-    font-family: Lora;
-    border-radius: 2px;
-}
 
-
-.projects .heading-links ul li a:hover{
+.project-section .container1{
+    max-width: 400px;
+    width: 100%;
     background-color: #ecc222;
-    border: none;
-    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
 }
 
 
-.projects .project-images{
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
+
+.project-section .container1 .bg-image{
+    background-image: url(images/port-img1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;    
 }
 
 
-.projects .project-images .project-containers{
+
+.project-section .cont2 .bg-image{
+    background-image: url(images/port-img2.png)!important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;    
+}
+
+
+
+.project-section .cont3 .bg-image{
+    background-image: url(images/port-img3.png)!important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;    
+}
+
+
+
+.project-section .cont4 .bg-image{
+    background-image: url(images/port-img4.png)!important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;    
+}
+
+
+
+.project-section .container1 .content{
+    max-width: 47vh;
+    width: 100%;
+}
+
+
+
+.project-section .container1 h1{
+    margin: 0px;
+    color: #333333;
+    font-family: Roboto;
+}
+
+
+.project-section .container1 p{
+    margin: 0px;
+    font-weight: 600;
+    font-family: Roboto;
+    color: #333333e1;;
+    font-size: 13px;
+    margin-top: 1vh;
+}
+
+
+
+.project-section .container1 .last-content{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+
+
+
+.project-section .container1 .last-content .live{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Roboto;
     
 }
 
 
 
-.projects .project-images .project-containers .container a img{
-    width: 350px;
+.project-section .container1 .last-content .live i{
+    font-size: 15px;
+}
+
+
+
+.project-section .container1 .last-content .details{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.842);
+    padding: 8px;
+    backdrop-filter: blur(5px);
     border-radius: 5px;
-    box-shadow: 2px 2px 5px black;
-    overflow: hidden;
+    font-family: Roboto;
+}
+
+
+
+.project-section .container1 .last-content .details i{
+    font-size: 15px;
+}
+
+
+
+.project-section .container2{
+    max-width: 400px;
+    width: 100%;
+}
+
+
+
+.project-section .container3{
+    max-width: 400px;
+    width: 100%;
+}
+
+
+
+.project-section .container4{
+    max-width: 400px;
+    width: 100%;
 }
 /* project ends here  */
 
